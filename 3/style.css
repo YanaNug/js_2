@@ -1,0 +1,12 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+a { text-decoration: none; color: rgb(95, 5, 83); }
+.center { width: 800px; margin: 0 auto; font-family: "Lato",sans-serif; }
+.container { padding: 36px 25px; display: flex; flex-direction: column; gap: 15px; font-family: "Lato",sans-serif; background-color: rgb(215, 197, 233); }
+.title { text-align: center; }
+.reviews { display: flex; flex-direction: column; gap: 24px; font-family: "Lato",sans-serif; }
+.error-msg { color: red; font-size: 32px; font-family: "Lato",sans-serif; }
+
+.add-review { width: 180px; font-family: "Lato",sans-serif; padding: 5px; border: none; border-radius: 15px; font-size: 18px; margin: 0 auto; }
+
+.user-review { font-family: "Lato",sans-serif; font-size: 15px; margin-bottom: 15px; }
+.btn { display: block; background-color: #ecdcfd; padding: 3px 5px; border: none; border-radius: 5px; }
